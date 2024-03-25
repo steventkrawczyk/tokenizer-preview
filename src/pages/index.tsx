@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react'
 import Tokenizer from '../components/tokenizer';
 
 export default function Home() {
-  // Keep track of the classification result and the model loading status.
+  // Keep track of the tokenizer result and the model loading status.
   const [result, setResult] = useState(null);
   const [ready, setReady] = useState<boolean | null>(null);
 
